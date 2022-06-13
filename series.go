@@ -6,7 +6,7 @@ func main() {
 
 	fmt.Println("Print the series : 1 1 2 3 5 8 13 ....")
 
-	series(7)
+	series(8)
 
 	// count := 7
 
@@ -22,10 +22,12 @@ func series(a int) {
 
 	for i := 0; i < a; i++ {
 		fmt.Println(store)
-		print = store + j // store = 1 + 1 = 2
-		if j == 1 {
-			j = store
-		} // j = 2
+		print = store + j
+
+		// store = 1 + 1 = 2
+		// if j == 1 {
+		// 	j = store
+		// } // j = 2
 
 		j = store
 		store = print
