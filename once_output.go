@@ -30,7 +30,3 @@ func main() {
 	fmt.Println(result)
 
 }
-
-// func out(ab []int) {
-
-// }
