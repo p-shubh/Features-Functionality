@@ -16,12 +16,12 @@ func series(a int) {
 
 	var j int = 1
 
-	var store int
+	var store int = 1
 
 	var print int
 
 	for i := 0; i < a; i++ {
-		fmt.Println(store)
+		fmt.Print(store, ",")
 		print = store + j
 
 		// store = 1 + 1 = 2
@@ -33,5 +33,8 @@ func series(a int) {
 		store = print
 
 	}
+
+	fmt.Print("....")
+	fmt.Println()
 
 }
