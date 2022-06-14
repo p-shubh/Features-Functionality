@@ -12,13 +12,15 @@ func main() {
 
 	input := []int{1, 2, 3, 4}
 
+	var output []int
+
 	for i := 0; i < len(input); i++ {
 
 		add = input[i] + add
-		fmt.Print(add, ",")
+		output = append(output, add)
 
 	}
 
-	fmt.Println()
+	fmt.Println(output)
 
 }
