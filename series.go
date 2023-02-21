@@ -29,12 +29,13 @@ func series(a int) {
 		// 	j = store
 		// } // j = 2
 
-		j = store
 		store = print
+		j = store
+		
 
 	}
 
 	fmt.Print("....")
-	fmt.Println()
+	fmt.Println(j)
 
 }
